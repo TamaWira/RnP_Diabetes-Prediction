@@ -1,0 +1,27 @@
+DIABETES DATASET
+-- Dataset untuk memprediksi apakah seseorang berpotensi mengidap diabetes berdasarkan beberapa ciri/atribut
+-- Merupakan gabungan dari sebuah dataset diabetes dengan balanced class dan imbalance class
+-- Dataset berukuran 229474 (baris) x 22 (kolom)
+-- Atribut Dataset:
+	1. 	[Target] Diabetes_binary: 0 (non-diabetes), 1 (diabetes)
+	2. 	HighBP					: Apakah seseorang memiliki tekanan darah yang tinggi (binary)
+	3. 	HighChol				: Apakah seseorang memiliki kolekstrol yang tinggi (binary)
+	4. 	CholCheck				: Apakah seseorang pernah melakukan cek kolestrol dalam 5 tahun belakang (binary)
+	5. 	BMI						: Body Mass Index/Indeks Massa Tubuh (int)
+	6. 	Smoker					: Apakah seseorang telah merokok minimal 100 rokok seumur hidupnya (binary)
+	7. 	Stroke					: Apakah seseorang pernah atau sedang memiliki stroke (binary)
+	8. 	HeartDiseaseorAttack	: Apakah seseorang memiliki penyakit jantung (binary)
+	9. 	PhysActivity			: Apakah seseorang melakukan aktivitas fisik dalam 30 terakhir ke belakang (binary)
+	10. Fruits					: Apakah seseorang mengonsumsi 1 atau lebih buah per hari (binary)
+	11.	Veggies					: Apakah seseorang mengonsumsi 1 atau lebih sayur per hari (binary)
+	12. HvyAlchoholConsump		: Apakah (pria dewasa) >= konsumsi 14 alkohol dan (wanita dewasa) >= konsumsi 7 alkohol per minggu (binary)
+	13. AnyHealthcare			: Apakah seseorang memiliki asuransi kesehatan dan sejenisnya (binary)
+	14. NoDocbcCost				: Apakah seseorang terkendala untuk bertemu dokter dalam 12 bulan terakhir karena biaya (binary)
+	15. GenHlth					: Range kondisi kesehatan (range: 1-5)
+	16. MentHlth				: Range hari dimana kondisi kesehatan mental buruk (range: 1-30)
+	17. PhysHlth				: Mengidap penyakit atau cedera secara fisik 30 hari terakhir (range: 1-30)
+	18. DiffWalk				: Apakah seseorang memiliki kesulitan menaiki tangga (binary)
+	19. Sex						: Jenis kelamin (binary, 0:wanita 1:pria)
+	20. Age						: 13 kategori usia menggunakan kode _AGEG5YR (range: 1-13)
+	21. Education				: Level edukasi menggunakan kode EDUCA (range: 1-6)
+	22. Income					: Skala pendapatan menggunakan kode INCOME2 (range: 1-8)
